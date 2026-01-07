@@ -16,5 +16,5 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v7.0.0
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: http://<your-aws-public-ip>:9000
+          SONAR_HOST_URL: http://98.90.197.242:9000
           SONAR_PROJECT_KEY: juice-shop
